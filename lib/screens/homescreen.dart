@@ -52,55 +52,81 @@ class _HomescreenState extends State<Homescreen> {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  CircleAvatar(
-                    backgroundColor: Colors.blue.withOpacity(0.2),
-                    radius: 30.r,
-                    child: Image.asset(
-                      "assets/images/men.png",
-                      height: 35.h,
-                      width: 35.w,
-                      fit: BoxFit.fill,
-                    ),
+                  Column(
+                    children: [
+                      CircleAvatar(
+                        backgroundColor: Colors.blue.withOpacity(0.2),
+                        radius: 30.r,
+                        child: Image.asset(
+                          "assets/images/men.png",
+                          height: 35.h,
+                          width: 35.w,
+                          fit: BoxFit.fill,
+                        ),
+                      ),
+                      Text("Men"),
+
+                    ],
                   ),
-                  CircleAvatar(
-                    backgroundColor: Colors.blue.withOpacity(0.2),
-                    radius: 30.r,
-                    child: Image.asset(
-                      "assets/images/women.png",
-                      height: 35.h,
-                      width: 35.w,
-                      fit: BoxFit.fill,
-                    ),
+                  Column(
+                    children: [
+                      CircleAvatar(
+                        backgroundColor: Colors.blue.withOpacity(0.2),
+                        radius: 30.r,
+                        child: Image.asset(
+                          "assets/images/women.png",
+                          height: 35.h,
+                          width: 35.w,
+                          fit: BoxFit.fill,
+                        ),
+                      ),
+                      Text("Women"),
+                    ],
                   ),
-                  CircleAvatar(
-                    backgroundColor: Colors.blue.withOpacity(0.2),
-                    radius: 30.r,
-                    child: Image.asset(
-                      "assets/images/electronics.png",
-                      height: 35.h,
-                      width: 35.w,
-                      fit: BoxFit.fill,
-                    ),
+                  Column(
+                    children: [
+                      CircleAvatar(
+                        backgroundColor: Colors.blue.withOpacity(0.2),
+                        radius: 30.r,
+                        child: Image.asset(
+                          "assets/images/electronics.png",
+                          height: 35.h,
+                          width: 35.w,
+                          fit: BoxFit.fill,
+                        ),
+                      ),
+                      Text("Electronics"),
+                    ],
                   ),
-                  CircleAvatar(
-                    backgroundColor: Colors.blue.withOpacity(0.2),
-                    radius: 30.r,
-                    child: Image.asset(
-                      "assets/images/handbag.png",
-                      height: 35.h,
-                      width: 35.w,
-                      fit: BoxFit.fill,
-                    ),
+                  Column(
+                    children: [
+                      CircleAvatar(
+                        backgroundColor: Colors.blue.withOpacity(0.2),
+                        radius: 30.r,
+                        child: Image.asset(
+                          "assets/images/handbag.png",
+                          height: 35.h,
+                          width: 35.w,
+                          fit: BoxFit.fill,
+                        ),
+                      ),
+                      Text("Bags"),
+                    ],
                   ),
-                  CircleAvatar(
-                    backgroundColor: Colors.blue.withOpacity(0.2),
-                    radius: 30.r,
-                    child: Image.asset(
-                      "assets/images/shoes.png",
-                      height: 35.h,
-                      width: 35.w,
-                      fit: BoxFit.fill,
-                    ),
+                  Column(
+                    children: [
+                      CircleAvatar(
+                        backgroundColor: Colors.blue.withOpacity(0.2),
+                        radius: 30.r,
+                        child: Image.asset(
+                          "assets/images/shoes.png",
+                          height: 35.h,
+                          width: 35.w,
+                          fit: BoxFit.fill,
+                        ),
+                      ),
+                      Text("Shoes"),
+                    ],
                   ),
                 ],
               ),
